@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+
+@theme {
+--font-sans: 'Inter', sans-serif;
+--color-bg: rgb(7 10 12);
+--color-surface: rgb(13 18 23);
+--color-muted: rgb(163 163 163);
+--color-accent: rgb(96 165 250);
+}
+
+
+:root {
+color-scheme: dark;
+}
+
+
+body {
+font-family: var(--font-sans);
+background-color: var(--color-bg);
+color: #e6eef8;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+
+/* small utilities to help visuals */
+.hero-gradient {
+background: linear-gradient(120deg, rgba(96,165,250,0.06), rgba(59,130,246,0.03));
+}
+
+
+.card-surface {
+background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+border: 1px solid rgba(255,255,255,0.04);
+}
