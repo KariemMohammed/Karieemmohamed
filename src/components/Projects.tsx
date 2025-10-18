@@ -9,21 +9,21 @@ export default function Projects() {
     {
       img: FoodieZonez,
       title: "FoodieZone",
-      tag: "Vanilla Javascript + Bootstrap + API",
+      tag: "Vanilla Javascript, Bootstrap, API",
       link: "https://github.com/Kareemmohameed/FoodieZone",
       demo: "https://kareemmohameed.github.io/FoodieZone/",
     },
     {
       img: Ecommerce,
       title: "E-Commerce UI",
-      tag: "React + API",
+      tag: "React, API",
       link: "https://github.com/Kareemmohameed/Ecommerce",
       demo: "https://kareemmohameed.github.io/Ecommerce",
     },
     {
       img: dashboard,
       title: "Dashboard Design",
-      tag: "Vite + TypeScript",
+      tag: "Vite, TypeScript",
       link: "https://ecommerce-concept.netlify.app/",
     },
   ];
@@ -48,7 +48,6 @@ export default function Projects() {
               />
             </div>
             <div className="p-6 flex items-start justify-between">
-              {/* النص ناحية الشمال */}
               <div className="text-left">
                 <p className="text-green-400 text-sm mb-2 w-[150px]">{p.tag}</p>
                 <h3 className="text-xl font-semibold text-white mb-4">
@@ -56,13 +55,12 @@ export default function Projects() {
                 </h3>
               </div>
 
-              {/* الزراير ناحية اليمين وتحت بعض */}
               <div className="flex flex-col gap-3 text-center">
                 <a
                   href={p.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-green-500 text-black font-medium px-4 py-2 rounded-full hover:bg-green-400 transition"
+                  className="bg-green-500 text-black font-medium px-4 py-2 rounded-full hover:bg-green-400 transition text-sm"
                 >
                   View Project
                 </a>
@@ -71,7 +69,7 @@ export default function Projects() {
                     href={p.demo}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-transparent border border-green-500 text-green-400 font-medium px-4 py-2 rounded-full hover:bg-green-500 hover:text-black transition"
+                    className="bg-transparent border border-green-500 text-green-400 font-medium px-4 py-2 rounded-full hover:bg-green-500 hover:text-black transition text-sm"
                   >
                     Live Demo
                   </a>
