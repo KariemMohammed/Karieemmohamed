@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 // @ts-ignore: allow importing image without a module declaration file
 import FoodieZonez from "../assets/FoodieZone.JPEG";
-import Ecommerce from "../assets/Ecommerce.png"
+import Ecommerce from "../assets/Ecommerce.png";
+import dashboard from "../assets/dashboard.png";
 
 export default function Projects() {
   const projects = [
@@ -17,12 +18,13 @@ export default function Projects() {
       title: "E-Commerce UI",
       tag: "React + API",
       link: "https://github.com/Kareemmohameed/Ecommerce",
-      demo: "https://kareemmohameed.github.io/Ecommerce"
+      demo: "https://kareemmohameed.github.io/Ecommerce",
     },
     {
+      img: dashboard,
       title: "Dashboard Design",
       tag: "Vite + TypeScript",
-      link: "#",
+      link: "https://ecommerce-concept.netlify.app/",
     },
   ];
 
@@ -39,12 +41,12 @@ export default function Projects() {
             className="bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-green-500/10 transition"
           >
             <div className="w-full h-48 bg-gray-700 overflow-hidden">
-  <img
-    src={p.img}
-    alt={p.title}
-    className="w-full h-full object-cover object-center"
-  />
-</div>
+              <img
+                src={p.img}
+                alt={p.title}
+                className="w-full h-full object-cover object-center"
+              />
+            </div>
             <div className="p-6 flex items-start justify-between">
               {/* النص ناحية الشمال */}
               <div className="text-left">
@@ -64,14 +66,16 @@ export default function Projects() {
                 >
                   View Project
                 </a>
-                <a
-                  href={p.demo}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-transparent border border-green-500 text-green-400 font-medium px-4 py-2 rounded-full hover:bg-green-500 hover:text-black transition"
-                >
-                  Live Demo
-                </a>
+                {p.demo && (
+                  <a
+                    href={p.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-transparent border border-green-500 text-green-400 font-medium px-4 py-2 rounded-full hover:bg-green-500 hover:text-black transition"
+                  >
+                    Live Demo
+                  </a>
+                )}
               </div>
             </div>
           </motion.div>

@@ -18,10 +18,7 @@ export default function Navbar({ scrolled, menuOpen, setMenuOpen }: Props) {
       initial={{ y: -60 }}
       animate={{ y: 0 }}
     >
-        <div>
-      <h1 className="text-xl font-bold text-green-400 text-center">Kareem </h1>
-      <span className="text-[13px] uppercase ">software engineer</span>
-      </div>
+      <h1 className="text-xl font-bold text-green-400 text-center">Kareem M.</h1>
       <ul className="hidden md:flex gap-6 text-sm font-medium">
         {["Home", "About", "Skills", "Projects", "Contact"].map((item) => (
           <a
