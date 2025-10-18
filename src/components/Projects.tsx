@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 // @ts-ignore: allow importing image without a module declaration file
-import FoodieZonez from "../assets/FoodieZone.JPEG";
+import FoodieZonez from "../assets/FoodieZone.jpeg";
 import Ecommerce from "../assets/Ecommerce.png";
 import dashboard from "../assets/dashboard.png";
 
