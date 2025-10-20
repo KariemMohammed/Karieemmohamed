@@ -1,9 +1,9 @@
 {
-  "name": "my-portfolio",
+  "name": "karieemmohamed",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kareemmohameed.github.io/my-portfolio",
+  "homepage": "https://kareemmohameed.github.io/Karieemmohamed",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
