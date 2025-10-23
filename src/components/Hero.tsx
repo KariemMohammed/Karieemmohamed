@@ -44,6 +44,7 @@ export default function Hero() {
           href="https://drive.google.com/file/d/1KwjG90HD5pOfJFve57Pnkja9wjqqTmiO/view?usp=drive_link"
           className="bg-green-500 text-black px-6 py-3 rounded-full font-semibold hover:bg-green-600 transition"
           whileHover={{ scale: 1.05 }}
+          target="_blank"
         >
           Show CV
         </motion.a>
