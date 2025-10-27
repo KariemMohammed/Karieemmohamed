@@ -34,7 +34,7 @@ export default function Contact() {
 
         {/* GitHub */}
         <a
-          href="https://github.com/Kareemmohameed"
+          href="https://github.com/KariemMohammed"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 bg-gray-800 text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-700 transition"
